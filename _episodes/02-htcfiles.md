@@ -1,7 +1,7 @@
 ---
-title: "Navigating Files and Directories"
-teaching: 30
-exercises: 10
+title: "Reviewing HTC Job Files"
+teaching: 10
+exercises: 0
 questions:
 - "How can I move around on my computer?"
 - "How can I see what files and directories I have?"
@@ -173,10 +173,20 @@ to use a command and what flags it accepts:
     ~~~
     {: .bash}
 
-**Depending on your environment you might find that only one of these works
-(either `man` or `--help`).**
-We'll describe both ways below.
+If you use a Mac, or Git for Windows, you might find that only one of these works 
+(probably `man` on Mac and `--help` in Windows). We'll describe both ways.
 
+Of course there is a third way: searching the internet via your web browser. 
+When using internet search, including the phrase `unix man page` in your search
+query will help to find relevant results.
+
+> ## Manual pages on the web
+>
+> GNU provides links to its
+> [manuals](http://www.gnu.org/manual/manual.html) including the
+> [core GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html),
+> which covers many commands introduced within this lesson.
+{: .callout}
 
 #### The `--help` flag
 
@@ -344,19 +354,6 @@ To search for a character or word in the `man` pages,
 use <kbd>/</kbd> followed by the character or word you are searching for. 
 
 To **quit** the `man` pages, press <kbd>Q</kbd>. 
-
-> ## Manual pages on the web
->
-> Of course there is a third way to access help for commands:
-> searching the internet via your web browser. 
-> When using internet search, including the phrase `unix man page` in your search
-> query will help to find relevant results.
->
-> GNU provides links to its
-> [manuals](http://www.gnu.org/manual/manual.html) including the
-> [core GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html),
-> which covers many commands introduced within this lesson.
-{: .callout}
 
 > ## Exploring More `ls` Flags
 >
